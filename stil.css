@@ -1,0 +1,188 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.navbar-logo {
+    color: #222731;
+    font-family: "OpenSans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dark-mode {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.navbar-dark__mode {
+    color: #697C9A;
+    text-align: right;
+    font-family: "OpenSans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+.search-section {
+    display: flex;
+    width: 950px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.search-input__input {
+    width: 500px;
+    border: unset;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "OpenSans";
+    font-weight: 800;
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+
+.search-btn {
+    width: 106px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0079FF;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #fff;
+    font-family: "OpenSans";
+    margin-left: 290px;
+    transition: .5s;
+}
+.search-btn:hover{
+    opacity: 0.5;
+}
+
+
+.main {
+    width: 880px;
+    height: 520px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dev-full__datas{
+    display: flex;
+    column-gap: 30px;
+    display: flex;
+}
+
+.dev-profile__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.dev-name {
+    color: #2B3442;
+    font-family: "OpenSans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dev-username {
+    color: #0079FF;
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dev-bio {
+    width: 480px;
+    color: #4B6A9B;
+    font-family: "OpenSans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 166.667% */
+    padding-top: 20px;
+}
+
+.dev-joined-date {
+    color: #697C9A;
+    text-align: right;
+    font-family: "OpenSans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dev-followers {
+    width: 480px;
+    height: 85px;
+    margin: auto;
+    border-radius: 10px;
+    background: #F6F8FF;
+    margin-left: 500px;
+    display: flex;
+    margin-left: 229px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    column-gap: 90px;
+    font-family: "OpenSans";
+}
+.dev-posts{
+    width: 20px;
+    align-items: center;
+}
+.dev-followers__all{
+    width: 20px;
+}
+.dev-following{
+    width: 20px;
+}
+.repos-count{
+    padding-left: 20px;
+}
+.dev-more-links{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    font-family: "OpenSans";
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+
+/* Dark mode */
+
